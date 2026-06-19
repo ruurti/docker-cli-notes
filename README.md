@@ -1,21 +1,29 @@
 # Docker CLI — Index
 
-Repo này là cheat sheet tổng hợp Docker CLI để tra cứu nhanh, không cần vào docs.
+Repo này gồm 2 phần: **cheat sheet** để tra cứu nhanh và **tutorial** để học từ đầu.
 
 ---
 
-## Mở file nào?
+## Cheat Sheet — Tra cứu nhanh
 
 | Tình huống | File |
 | ---------- | ---- |
 | Làm việc với container, image, network, volume | [README-core.md](README-core.md) |
 | Viết hoặc đọc Dockerfile | [README-dockerfile.md](README-dockerfile.md) |
 | Dùng Docker Compose (local dev / staging) | [README-compose.md](README-compose.md) |
-| Vận hành Docker Swarm (production cluster) | [README-swarm.md](README-swarm.md) |
+| Tra cứu lệnh Docker Swarm nhanh | [README-swarm.md](README-swarm.md) |
 
 ---
 
-## Tổng quan các chủ đề
+## Tutorial — Học từ đầu
+
+| Chủ đề | Folder |
+| ------ | ------ |
+| Docker Swarm từ zero đến production | [swarm/](swarm/README.md) |
+
+---
+
+## Nội dung cheat sheet
 
 ### [README-core.md](README-core.md)
 
@@ -51,7 +59,7 @@ Chạy nhiều container cùng nhau bằng `compose.yaml`.
 
 ### [README-swarm.md](README-swarm.md)
 
-Orchestration production trên nhiều host.
+Tra cứu lệnh Swarm — dùng sau khi đã học xong tutorial.
 
 - Khởi tạo cluster, join node
 - Quản lý node: drain, promote, demote
@@ -72,5 +80,6 @@ Chạy nhiều service cùng nhau ở local / staging?
   └─> Docker Compose        →  README-compose.md
 
 Triển khai production trên nhiều server, cần HA?
-  └─> Docker Swarm          →  README-swarm.md
+  └─> Docker Swarm          →  README-swarm.md (cheat sheet)
+                               swarm/ (tutorial từ đầu)
 ```
