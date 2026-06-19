@@ -1,7 +1,8 @@
 # Dockerfile — Cheat Sheet
 
 > File định nghĩa cách build Docker image. Mỗi instruction tạo 1 layer.  
-> Build bằng: `docker image build -t <name>:<tag> .`
+> Build bằng: `docker image build -t <name>:<tag> .`  
+> Xem thêm: [README.md](README.md) (index) · [README-core.md](README-core.md) · [README-compose.md](README-compose.md)
 
 ---
 

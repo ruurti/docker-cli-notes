@@ -1,7 +1,8 @@
 # Docker Compose — Cheat Sheet
 
 > Chạy nhiều container cùng nhau được định nghĩa trong file `compose.yaml`.  
-> Dùng cho **local development** và **staging**. Với production multi-host → xem [README-swarm.md](README-swarm.md).
+> Dùng cho **local development** và **staging**. Với production multi-host → xem [README-swarm.md](README-swarm.md).  
+> Xem thêm: [README.md](README.md) (index) · [README-core.md](README-core.md) · [README-dockerfile.md](README-dockerfile.md)
 
 ---
 

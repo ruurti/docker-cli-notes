@@ -1,5 +1,8 @@
 # Docker Swarm CLI — Cheat Sheet
 
+> Orchestration production trên nhiều host. Dùng khi cần HA, rolling update, load balancing.  
+> Xem thêm: [README.md](README.md) (index) · [README-core.md](README-core.md) · [README-compose.md](README-compose.md)
+
 ## Kiến trúc tổng quan
 
 ```mermaid
